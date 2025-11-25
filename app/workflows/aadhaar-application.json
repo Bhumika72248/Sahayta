@@ -1,0 +1,92 @@
+{
+  "id": "aadhaar-application",
+  "name": "Aadhaar Card Application",
+  "description": "Apply for new Aadhaar card",
+  "category": "identity",
+  "estimatedTime": "15 minutes",
+  "difficulty": "easy",
+  "icon": "aadhaar",
+  "steps": [
+    {
+      "step": 1,
+      "type": "info",
+      "key": "welcome",
+      "title": "Welcome to Aadhaar Application",
+      "content": "This process will help you apply for a new Aadhaar card. You will need to provide personal information and scan supporting documents.",
+      "prompt": "Welcome to Aadhaar card application. I will guide you through the process step by step.",
+      "audio": "workflow.aadhaar.welcome.mp3"
+    },
+    {
+      "step": 2,
+      "type": "ask",
+      "key": "ask_name",
+      "title": "Full Name",
+      "prompt": "What is your full name as it should appear on the Aadhaar card?",
+      "input": "voice",
+      "validation": "required",
+      "audio": "workflow.aadhaar.askName.mp3"
+    },
+    {
+      "step": 3,
+      "type": "ask",
+      "key": "ask_age",
+      "title": "Age",
+      "prompt": "What is your age?",
+      "input": "voice",
+      "validation": "number",
+      "audio": "workflow.aadhaar.askAge.mp3"
+    },
+    {
+      "step": 4,
+      "type": "ask",
+      "key": "ask_gender",
+      "title": "Gender",
+      "prompt": "What is your gender? Say male, female, or other.",
+      "input": "voice",
+      "validation": "required",
+      "audio": "workflow.aadhaar.askGender.mp3"
+    },
+    {
+      "step": 5,
+      "type": "ocr",
+      "key": "scan_address_proof",
+      "title": "Address Proof",
+      "prompt": "Please scan your address proof document such as electricity bill, bank statement, or rental agreement.",
+      "documentType": "address_proof",
+      "audio": "workflow.aadhaar.scanAddress.mp3"
+    },
+    {
+      "step": 6,
+      "type": "ask",
+      "key": "ask_mobile",
+      "title": "Mobile Number",
+      "prompt": "What is your mobile number for SMS updates?",
+      "input": "voice",
+      "validation": "required",
+      "audio": "workflow.aadhaar.askMobile.mp3"
+    },
+    {
+      "step": 7,
+      "type": "confirm",
+      "key": "confirm_details",
+      "title": "Confirm Details",
+      "prompt": "Please review all the information you have provided. Say yes to confirm or no to make changes.",
+      "audio": "workflow.aadhaar.confirmDetails.mp3"
+    },
+    {
+      "step": 8,
+      "type": "submit",
+      "key": "submit_application",
+      "title": "Submit Application",
+      "prompt": "Submitting your Aadhaar card application. Please wait...",
+      "audio": "workflow.aadhaar.submit.mp3"
+    }
+  ],
+  "requiredDocuments": [
+    "Address proof (Electricity bill, Bank statement, Rental agreement)",
+    "Date of birth proof (Birth certificate, School certificate)"
+  ],
+  "fees": "Free for first enrollment",
+  "processingTime": "90 days",
+  "trackingInfo": "You will receive SMS updates on your registered mobile number"
+}

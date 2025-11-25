@@ -1,0 +1,90 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "retry": "Retry",
+    "done": "Done",
+    "skip": "Skip",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "splash": {
+    "title": "Sahayak",
+    "subtitle": "Your AI Assistant for Government Services"
+  },
+  "language": {
+    "title": "Choose Your Language",
+    "subtitle": "Select your preferred language",
+    "english": "English",
+    "hindi": "हिंदी",
+    "regional": "मराठी"
+  },
+  "permissions": {
+    "title": "Permissions Required",
+    "subtitle": "We need these permissions to help you",
+    "camera": "Camera access to scan documents",
+    "microphone": "Microphone access for voice commands",
+    "storage": "Storage access to save your data",
+    "grant": "Grant Permissions"
+  },
+  "voiceProfile": {
+    "title": "Create Voice Profile",
+    "subtitle": "Tell us about yourself",
+    "namePrompt": "What is your name?",
+    "agePrompt": "What is your age?",
+    "genderPrompt": "What is your gender?",
+    "locationPrompt": "Where do you live?",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "home": {
+    "title": "Welcome to Sahayak",
+    "subtitle": "How can I help you today?",
+    "scanDocument": "Scan Document",
+    "voiceAssistant": "Voice Assistant",
+    "myTasks": "My Tasks"
+  },
+  "voice": {
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "tapToSpeak": "Tap to speak",
+    "speakNow": "Speak now"
+  },
+  "ocr": {
+    "title": "Scan Document",
+    "subtitle": "Position document in frame",
+    "align": "Align document properly",
+    "capture": "Capture",
+    "retake": "Retake",
+    "confirm": "Confirm Details"
+  },
+  "workflow": {
+    "selectProcess": "Select Process",
+    "step": "Step {{current}} of {{total}}",
+    "complete": "Process Complete",
+    "saved": "Information Saved"
+  },
+  "form": {
+    "name": "Name",
+    "age": "Age",
+    "address": "Address",
+    "phone": "Phone Number",
+    "email": "Email",
+    "aadhar": "Aadhar Number"
+  },
+  "offline": {
+    "title": "You're Offline",
+    "subtitle": "Your data will be saved and synced when connected",
+    "queued": "{{count}} items queued for sync"
+  },
+  "error": {
+    "general": "Something went wrong. Please try again.",
+    "camera": "Camera not available",
+    "microphone": "Microphone not available",
+    "network": "Network error. Please check your connection."
+  }
+}
